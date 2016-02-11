@@ -1,13 +1,59 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+  width: 640px;
+}
+
+header{
+
+}
+
+main{
+  margin-left: 100px;
+  height: 500px
+}
+
+footer{
+  background-color: gray;
+  padding-bottom: 20px;
+}
+
 h1{
   text-align: center;
 }
 
-nav{
-  border: 1px solid black;
-    text-align: center;
+nav:nth-child(2){
+  float: left;
+  margin: -100px 30px 50px -10px;
+  text-align: center;
+  height:800px;
+  position: fixed;
+  background-color: red;
 }
 
-nav p{
-  display: inline;
+footer nav{
+  height: 50px;
+  text-align: center;
+  padding: 50px 0 15px 0;
+}
 
+footer>p{
+  border: 1px solid blue;
+  margin: 30px 0 20px 100px;
+  padding-left: 50px;
+}
+
+.top{
+  display: block;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.bottom{
+  display: inline;
+  padding: 0 30px;
+  margin-top: 10px;
 }
