@@ -1,6 +1,7 @@
 *{
 	box-sizing: border-box;
 }
+/* Your indentation's a bit all over the place here. Keep it consistent! */
 
 
 body{
@@ -17,7 +18,8 @@ header{
 main{
   margin-left: 120px;
   height: 500px;
-	color:rgb(210,180,140)
+	color:rgb(210,180,140);
+  /* Try to get used to writing hex codes. It'll make this a lot easier in the long run! */
 
 }
 
@@ -37,6 +39,7 @@ h1{
 }
 
 nav:nth-child(2){
+/* Why not give it a class instead of having to use :nth-child? */
   float: left;
   margin: -100px 30px 50px -10px;
   text-align: center;
@@ -53,6 +56,8 @@ footer nav{
 
 footer>p{
   margin: 30px 0 20px 100px;
+  /* Lots of margin-ing going on. Usually there's a way of achieving the effects you want with much less CSS.
+  For instance, with this you could achieve the same effect just by doing text-align:center */
   padding-left: 50px;
 }
 
