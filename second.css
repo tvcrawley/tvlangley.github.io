@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+body{
+	width: 640px;
+	margin: 0 auto;
+	background-image: url("pretty.jpg");
+	background-size: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+	animation-name: cool;
+	animation-duration: 3s;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+  position: relative;
+}
+
+
+h1{
+	color: #d2b48c;
+  margin: 0;
+
+	animation-timing-function: ease-in;
+}
+
+@keyframes cool{
+  from{left:0;}
+  to{left:300px;}
+	0% {opacity: 0; left:0;}
+	25% {opacity: 1;left:300px;}
+	50% {opacity: 0; right: 0;}
+	100% {opacity: 1; right: 300px;}
+}
