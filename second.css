@@ -16,19 +16,32 @@ body{
   justify-content: center;
   flex-direction: column;
 
-	animation-name: cool;
+	/*animation-name: cool;
 	animation-duration: 3s;
 	animation-iteration-count: 3;
 	animation-direction: alternate;
-  position: relative;
+  position: relative;*/
 }
 
 
 h1{
 	color: #d2b48c;
   margin: 0;
+	padding: 100px;
 
 	animation-timing-function: ease-in;
+
+	margin-top: 100px;
+}
+
+h2 {
+	/*margin-top: 100px;*/
+	border: solid #dfd4c4;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px 0px;
+	color: #d2b48c;
+	font-weight: bold;
 }
 
 @keyframes cool{
