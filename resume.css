@@ -1,1 +1,29 @@
+html, body{
+  /*height: 100%;*/
+}
 
+body{
+  margin: 0 5%;
+  padding: 0 5%;
+  width: 700px;
+}
+
+.center{
+  text-align: center;
+}
+
+.shift{
+  margin-left: 3%;
+}
+
+td{
+  width: 1%;
+  text-align: center;
+  /*border: solid thin black;*/
+}
+h2, h3{
+  margin: 2% 0;
+}
+h4{
+  margin: 1% 0;
+}
