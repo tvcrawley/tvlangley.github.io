@@ -3,17 +3,16 @@
   margin: 0;
 }
 
-html, body{
-  /*height: 100%;*/
+html, body, main{
+  height: 100%;
 }
 
-body{
-  margin: 0 5%;
-  padding: 0 5%;
+main{
+  margin: 0 auto;
   width: 700px;
   font-family: helvetica, sans-serif;
 }
-.stretch{
+.emphasize{
   font-variant: small-caps;
   font-size: 50px;
   margin: 10px;
@@ -24,7 +23,7 @@ body{
 }
 
 .shift{
-  margin-left: 3%;
+  margin-left: 20px;
 }
 
 td{
@@ -34,17 +33,22 @@ td{
   text-align: center;
   /*border: solid thin black;*/
 }
-h2, h3{
-  margin: 2% 0;
-}
+
 h3{
+  margin: 10px 0 5px 0;
   border-top: solid thin black;
   padding-top: 10px;
-  margin: 10px 0;
 }
 h4{
-  margin: 1% 0;
+  margin: 10px 0;
+  font-variant: small-caps;
 }
 h5{
   margin: 0;
+}
+h2, ul, p{
+  margin: 10px;
+}
+li{
+  line-height: 20px;
 }
