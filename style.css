@@ -86,6 +86,8 @@ nav p a{
   margin-top: 10px;
 }
 
-a img{
+a{
 	cursor: pointer;
+	text-decoration: none;
+	color: tan;
 }
