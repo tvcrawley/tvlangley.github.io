@@ -1,0 +1,18 @@
+.yargh{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.pic{
+  height: 250px;
+  width: 250px;
+  margin-bottom: 25px;
+}
+.brandStatement{
+  width: 500px;
+padding: 15px;
+  text-align: center;
+
+  border: solid;
+}
