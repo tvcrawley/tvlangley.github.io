@@ -13,9 +13,10 @@
   position: relative;
 }
 .description{
-  margin-top: 100px;
+  margin: 100px 0;
   text-align: center;
-  padding: 50px;
+  padding: 50px 70px;
+  background-color: azure;
 }
 h3{
   position: absolute;

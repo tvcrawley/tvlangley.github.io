@@ -14,35 +14,49 @@ header{
 
 main{
   height: auto;
-  margin-top: 15%;
+  padding-top: 15%;
+  /*background-color: red;*/
 }
 
+section{
+  padding: 100px 0;
+}
+
+/*#about{
+  background-color: purple;
+}
+#portfolio{
+  background-color: yellow;
+}*/
+
 footer{
-  /*margin-top:auto;*/
-  height: 20%;
+  height: 25%;
 }
 
 header, footer{
   background-color: aquamarine;
 }
-nav{
+.navbar{
   margin-top: 15px;
+}
+.navbar a{
+  padding: 20px  10px;
 }
 .navbar-brand{
   margin: 0 100px;
-  /*width: auto;*/
-  /*background-color: yellow;*/
 }
+.navbar-brand a{
+  padding: 40px;
 
+}
 nav a, h1, h2{
   color: white;
 }
+
 nav a:hover{
   text-decoration: none;
-  /*text-transform: full-width;*/
   background-color: white;
   color: black;
-  padding: 20px  15px;
 }
 
 
@@ -53,12 +67,7 @@ footer div{
   justify-content: center;
 }
 
-h1{
-  /*margin-top: 60px;*/
-  /*text-align: center;*/
-}
-
 h2{
-  margin: 10px 10px 10px 75px;
+  margin: 0px 10px 10px 75px;
   padding-top: 10px;
 }
