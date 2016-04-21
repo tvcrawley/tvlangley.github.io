@@ -5,16 +5,20 @@ flex-direction: column;;
 /*align-items: center;*/
 width: 90%;
 }
-/*.pic{
-  height: 250px;
+.pic{
+  /*height: 250px;
   width: 250px;
-  margin: 50px;
-}*/
+  margin: 50px;*/
+  border: solid aquamarine;
+
+}
 
 .brandStatement{
   width: 500px;
 padding: 50px;
   text-align: center;
 margin: 100px;
-  border: solid;
+background-color: azure;
+  border: thick solid azure;
+  border-radius: 20px;
 }

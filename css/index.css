@@ -40,7 +40,7 @@ header, footer{
   margin-top: 15px;
 }
 .navbar a{
-  padding: 20px  10px;
+  padding: 35px 15px 25px 15px;
 }
 .navbar-brand{
   margin: 0 100px;
@@ -56,7 +56,7 @@ nav a, h1, h2{
 nav a:hover{
   text-decoration: none;
   background-color: white;
-  color: black;
+  color: aquamarine;
 }
 
 
@@ -70,4 +70,13 @@ footer div{
 h2{
   margin: 0px 10px 10px 75px;
   padding-top: 10px;
+}
+
+.construction{
+margin: 20px 0;
+background-color: white;
+color: aquamarine;
+text-align: center;
+border: solid thin white;
+border-radius: 15px;
 }

@@ -17,6 +17,7 @@
   text-align: center;
   padding: 50px 70px;
   background-color: azure;
+  border-radius: 20px;
 }
 h3{
   position: absolute;
@@ -35,4 +36,5 @@ h3{
 }
 .port a:hover  h3{
   opacity: .7;
+  /*color: pink;*/
 }
