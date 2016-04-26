@@ -15,7 +15,7 @@ $(document).ready(function(){
   })
 
   $("h3").click(function(){
-    $(".description").slideToggle("slow");
+    $(this).siblings(".description").slideToggle("slow");
   });
   //using janimate
   // $("#title").ready(function(){
