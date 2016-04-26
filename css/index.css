@@ -15,7 +15,10 @@ header{
 main{
   height: auto;
   padding-top: 15%;
-  /*background-color: red;*/
+  background-color: red;
+  /*background-image: url(pic.jpg);
+	background-size: contain;*/
+  /*background-size: cover;*/
 }
 
 section{
@@ -24,10 +27,10 @@ section{
 
 /*#about{
   background-color: purple;
-}
-#portfolio{
-  background-color: yellow;
 }*/
+#portfolio{
+  background-color: green;
+}
 
 footer{
   height: 25%;
@@ -70,13 +73,4 @@ footer div{
 h2{
   margin: 0px 10px 10px 75px;
   padding-top: 10px;
-}
-
-.construction{
-margin: 20px 0;
-background-color: white;
-color: aquamarine;
-text-align: center;
-border: solid thin white;
-border-radius: 15px;
 }

@@ -13,11 +13,12 @@
   position: relative;
 }
 .description{
-  margin: 100px 0;
+  /*margin: 100px 0;*/
   text-align: center;
   padding: 50px 70px;
   background-color: azure;
   border-radius: 20px;
+  display: none;
 }
 h3{
   position: absolute;
@@ -34,7 +35,7 @@ h3{
 
   background-color: aquamarine;
 }
-.port a:hover  h3{
+.port h3:hover {
   opacity: .7;
   /*color: pink;*/
 }

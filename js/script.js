@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-//smooth scroll to section doesn't work
+//smooth scroll
   $("a").click(function(evt){
     evt.preventDefault();
 
@@ -13,6 +13,10 @@ $(document).ready(function(){
     });
     // return false;
   })
+
+  $("h3").click(function(){
+    $(".description").slideToggle("slow");
+  });
   //using janimate
   // $("#title").ready(function(){
   // $("h1").jAnimateSequence(["bounce", "tada", "wobble"]);
