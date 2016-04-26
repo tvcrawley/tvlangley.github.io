@@ -15,7 +15,7 @@ header{
 main{
   height: auto;
   padding-top: 15%;
-  background-color: red;
+  /*background-color: red;*/
   /*background-image: url(pic.jpg);
 	background-size: contain;*/
   /*background-size: cover;*/
@@ -29,7 +29,7 @@ section{
   background-color: purple;
 }*/
 #portfolio{
-  background-color: green;
+  /*background-color: green;*/
 }
 
 footer{

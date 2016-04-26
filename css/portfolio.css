@@ -11,14 +11,19 @@
 }
 .mur{
   position: relative;
+  margin: 20px;
 }
 .description{
   /*margin: 100px 0;*/
   text-align: center;
-  padding: 50px 70px;
+  padding: 30px 70px;
   background-color: azure;
   border-radius: 20px;
   display: none;
+  height: 150px;
+}
+.description a{
+  display: block;
 }
 h3{
   position: absolute;

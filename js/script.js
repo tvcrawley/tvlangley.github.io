@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-//smooth scroll
+  //smooth scroll
   $("a").click(function(evt){
     evt.preventDefault();
 
