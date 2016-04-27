@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   //smooth scroll
-  $("a").click(function(evt){
+  $(".navbar a").click(function(evt){
     evt.preventDefault();
 
     var hash = this.hash;
