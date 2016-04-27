@@ -56,6 +56,10 @@ nav a, h1, h2{
   color: white;
 }
 
+nav a:link, nav a:visited{
+  text-decoration: none;
+  color: white;;
+}
 nav a:hover{
   text-decoration: none;
   background-color: white;
