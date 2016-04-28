@@ -1,6 +1,21 @@
 $(document).ready(function(){
 
   //smooth scroll
+
+  // var headerHeight = $("div#header").height();
+  //
+  // // Attach the click event
+  // $('a[href*=#]').bind("click", function(e) {
+  //
+  //     var target = $(this).attr("href"); //Get the target
+  //     var scrollToPosition = $(target).offset().top - headerHeight;
+  //
+  //     $('html').animate({ 'scrollTop': scrollToPosition }, 600, function(target){
+  //         window.location.hash = target;
+  //     });
+  //
+  // });
+
   $(".scroll").click(function(evt){
     evt.preventDefault();
 
@@ -11,8 +26,7 @@ $(document).ready(function(){
     }, 1000, function(){
       window.location.hash = hash;
     });
-    // return false;
-  })
+  });
 
   $("h3").click(function(){
     $(this).siblings(".description").slideToggle("slow");
