@@ -1,9 +1,10 @@
+/*same code in portfolio*/
 .yargh{
-display: flex;
-flex-direction: column;;
-/*justify-content: center;*/
-/*align-items: center;*/
-width: 90%;
+  display: flex;
+  flex-direction: column;;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  width: 90%;
 }
 .pic{
   /*height: 250px;
@@ -13,12 +14,12 @@ width: 90%;
 
 }
 
-.brandStatement{
+.about{
   width: 500px;
-padding: 50px;
+  padding: 35px 15px;
   text-align: center;
-margin: 100px;
-background-color: azure;
+  margin: 50px auto;
+  background-color: azure;
   border: thick solid azure;
   border-radius: 20px;
 }

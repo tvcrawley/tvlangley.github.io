@@ -59,9 +59,10 @@ html {
 }
 
 .cd-intro {
-  width: 90%;
-  max-width: 768px;
+  /*width: 90%;*/
+  /*max-width: 768px;*/
   text-align: center;
+  padding: 100px 0 250px 100px;
 }
 
 .cd-intro {
