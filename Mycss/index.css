@@ -12,7 +12,7 @@ header{
   height: 75px;
 }
 /*header .row{
-  height: 70px;
+height: 70px;
 }*/
 main{
   height: auto;
@@ -28,7 +28,7 @@ section{
 }
 
 #about{
-background-color: rgba(128, 0, 128, .5);
+  background-color: rgba(128, 0, 128, .5);
 }
 #portfolio{
   background-color: rgba(0, 128, 0, .5);
@@ -39,7 +39,8 @@ footer{
 }
 
 header, footer{
-  background-color: aquamarine;
+  background-color: rgba(127, 255, 212, .7);
+  /*background-color: #96dec6;*/
 }
 .navbar{
   margin-top: 15px;
@@ -60,12 +61,12 @@ nav a, h1, h2{
 
 nav a:link, nav a:visited{
   text-decoration: none;
-  color: white;;
+  color: white;
 }
 nav a:hover{
   text-decoration: none;
-  background-color: white;
-  color: aquamarine;
+  background-color: rgba(255, 255, 255, .85);
+  color: #6cddb7;
 }
 
 
