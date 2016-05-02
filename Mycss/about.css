@@ -15,11 +15,12 @@
 }
 
 .about{
-  width: 500px;
+  /*width: 500px;*/
   padding: 35px 15px;
   text-align: center;
   margin: 50px auto;
   background-color: azure;
   border: thick solid azure;
   border-radius: 20px;
+  color: black;
 }
