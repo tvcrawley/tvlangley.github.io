@@ -36,9 +36,12 @@ section{
 
 footer{
   height: 25%;
+  /*background-image: url(pic.jpg);*/
+  /*background-size: contain;*/
+  background-color: aquamarine;
 }
 
-header, footer{
+header{
   background-color: rgba(127, 255, 212, .7);
   /*background-color: #96dec6;*/
 }
