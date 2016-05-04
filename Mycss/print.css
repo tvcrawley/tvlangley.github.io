@@ -23,7 +23,7 @@ main{
 }
 
 .shift{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 td{
@@ -31,24 +31,32 @@ td{
   height: 30px;
   padding: 0 5px;
   text-align: center;
-  /*border: solid thin black;*/
 }
 
-h3{
-  margin: 10px 0 5px 0;
-  border-top: solid thin black;
-  padding-top: 10px;
-}
 h4{
   margin: 10px 0;
   font-variant: small-caps;
 }
+
+h3, h4:last-child{
+  margin: 5px 0 5px 0;
+  border-top: solid thin black;
+  padding-top: 5px;
+}
+
+
+h4:last-child{
+  text-align: center;
+}
+
 h5{
   margin: 0;
 }
+
 h2, ul, p{
   margin: 10px;
 }
+
 li{
   line-height: 20px;
 }
