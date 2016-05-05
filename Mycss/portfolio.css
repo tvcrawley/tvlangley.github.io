@@ -4,7 +4,7 @@
   width: 90%;
 }
 .port img{
-  margin: 10px 10px 10px 35px;
+  margin: 0 0 10px 0;
   border:  aquamarine solid;
   border-radius: 30px;
 }
@@ -24,13 +24,14 @@
 }
 h3{
   position: absolute;
-  top: 0;
+  left: 0;
+  right: 0;
   opacity: 0;
   transition: all .2s ease-in;
   width: 350px;
   height: 300px;
   padding-top: 150px;
-  margin: 10px 10px 10px 35px;
+  margin: auto;
   border:  aquamarine solid;
   border-radius: 30px;
   text-align: center;
@@ -39,4 +40,13 @@ h3{
 .port h3:hover {
   opacity: .7;
   cursor: pointer;
+}
+.rowed{
+  display: flex;
+  justify-content: center;
+}
+.flexed{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
