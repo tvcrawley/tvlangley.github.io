@@ -134,6 +134,10 @@ h2{
   }
   .type{
     color: aquamarine;
+    background-color: white;
+    padding: 5px;
+    border: thick solid white;
+    border-radius: 20px;
     width: 250px;
   }
 
