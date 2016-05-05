@@ -11,6 +11,7 @@ html, body{
 
 header{
   height: 75px;
+  background-color: rgba(127, 255, 212, .7);
 }
 /*header .row{
 height: 70px;
@@ -42,10 +43,6 @@ footer{
   background-color: aquamarine;
 }
 
-header{
-  background-color: rgba(127, 255, 212, .7);
-  /*background-color: #96dec6;*/
-}
 .navbar, .lll{
   min-width: 500px;
   white-space: nowrap;
@@ -99,5 +96,31 @@ h2{
   }
   .navbar-brand{
     margin: 0 40px;
+  }
+}
+
+@media (min-width: 320px){
+  html, body, .navbar, .lll{
+    min-width: 320px;
+  }
+  header{
+    height: 60px;
+  }
+
+  h1{
+    font-size: 24px;
+    margin: 5px 0;
+  }
+
+  .navbar{
+    margin-top: 0;
+  }
+
+  .navbar a{
+    padding: 5px 10px;
+  }
+
+  .pull-right, .pull-left{
+    float: none!important;
   }
 }
