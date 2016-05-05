@@ -121,6 +121,8 @@ h2{
 
   .pull-right, .pull-left{
     float: none!important;
+    padding-left: 0;
+    text-align: center;
   }
   .cd-intro{
     padding: 200px 0 20px 0;
