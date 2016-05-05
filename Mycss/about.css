@@ -37,3 +37,14 @@
     margin: 0 0 20px 0;
   }
 }
+
+@media (max-width: 768px) and (min-width: 501px){
+  h2{
+    margin: 0 50px;
+  }
+
+  .about{
+    margin: 0 0 20px 0;
+  }
+  
+}

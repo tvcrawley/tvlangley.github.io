@@ -68,3 +68,22 @@ h3{
     width: 320px;
   }
 }
+
+@media (max-width: 768px) and (min-width: 501px){
+  .rowed{
+    flex-direction: column;
+    margin: auto;
+  }
+
+  h3{
+    left: auto;
+    right: auto;
+  }
+  .port img{
+    margin: 0 auto 10px auto;
+  }
+  .description{
+    margin: 0 auto 10px auto;
+    width: 320px;
+  }
+}

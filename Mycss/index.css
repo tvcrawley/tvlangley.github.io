@@ -26,7 +26,7 @@ main{
 }
 
 section{
-  padding: 20px 0 0 0;
+  padding: 30px 0;
 }
 
 #about{
@@ -85,19 +85,6 @@ h2{
   padding-top: 10px;
   border-bottom: solid thin white;
 }
-@media (max-width: 768px){
-  /*.pull-right{
-  background-color: red;
-  float: left!important;
-  display: block;
-  }*/
-  .navbar p{
-    display: inline;
-  }
-  .navbar-brand{
-    margin: 0 40px;
-  }
-}
 
 @media (max-width: 500px){
   html, body, .navbar, .lll{
@@ -106,11 +93,15 @@ h2{
   header{
     height: 60px;
   }
-main{
-  /*background-image: url(  http://i.imgur.com/yc3H4rs.jpg);*/
-  background-image: url(http://i.imgur.com/pmQDtYr.jpg);
-  background-size: contain;
-}
+  main{
+    background-image: url(http://i.imgur.com/pmQDtYr.jpg);
+    background-size: contain;
+  }
+
+  section{
+    padding: 20px 0 0 0;
+  }
+
   h1{
     font-size: 24px;
     margin: 5px 0;
@@ -124,12 +115,16 @@ main{
     padding: 5px 10px;
   }
 
+  .navbar p{
+    display: inline;
+  }
+
   .pull-right, .pull-left{
     float: none!important;
   }
-.cd-intro{
-  padding: 200px 0 20px 0;
-}
+  .cd-intro{
+    padding: 200px 0 20px 0;
+  }
   .type{
     color: aquamarine;
     width: 400px;
@@ -140,5 +135,38 @@ main{
   }
   .navbar-brand a{
     padding: 25px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 501px){
+  html, body, .navbar, .lll{
+    min-width: 501px;
+  }
+  section{
+    padding: 20px 0 5px 0;
+  }
+
+  .navbar{
+    margin-top: 25px;
+  }
+  .navbar p{
+    display: inline;
+  }
+  .pull-right{
+    float: none!important;
+  }
+
+  .cd-intro{
+    padding: 100px 0 325px 400px;
+  }
+
+  /*.navbar-brand{
+    margin: 0 40px;
+  }*/
+  .navbar-brand{
+    margin: 10px auto;
+  }
+  .navbar-brand a{
+    padding: 30px;
   }
 }
