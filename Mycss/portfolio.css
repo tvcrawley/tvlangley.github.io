@@ -51,7 +51,7 @@ h3{
   align-items: center;
 }
 
-@media (min-width: 320px){
+@media (max-width: 500px){
   .rowed{
     flex-direction: column;
   }

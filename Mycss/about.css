@@ -28,7 +28,7 @@
   width: auto!important;
 }
 
-@media (min-width: 320px){
+@media (max-width: 500px){
   h2{
     margin: 0 25px;
   }
