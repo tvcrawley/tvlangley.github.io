@@ -85,7 +85,7 @@ h2{
   padding-top: 10px;
   border-bottom: solid thin white;
 }
-@media (min-width: 768px){
+@media (max-width: 768px){
   /*.pull-right{
   background-color: red;
   float: left!important;
@@ -99,7 +99,7 @@ h2{
   }
 }
 
-@media (min-width: 320px){
+@media (max-width: 500px){
   html, body, .navbar, .lll{
     min-width: 320px;
   }
@@ -124,10 +124,6 @@ main{
     padding: 5px 10px;
   }
 
-  .navbar p{
-    display: inline;
-  }
-
   .pull-right, .pull-left{
     float: none!important;
   }
@@ -137,5 +133,12 @@ main{
   .type{
     color: aquamarine;
     width: 400px;
+  }
+
+  .navbar-brand{
+    margin: 0 auto;
+  }
+  .navbar-brand a{
+    padding: 25px;
   }
 }
