@@ -88,7 +88,7 @@ h2{
 
 @media (max-width: 500px){
   html, body, .navbar, .lll{
-    min-width: 320px;
+    min-width: 250px;
   }
   header{
     height: 60px;
@@ -105,6 +105,7 @@ h2{
   h1{
     font-size: 24px;
     margin: 5px 0;
+    text-align: center;
   }
 
   .navbar{
@@ -121,15 +122,19 @@ h2{
 
   .pull-right, .pull-left{
     float: none!important;
-    padding-left: 0;
-    text-align: center;
+    padding: 0;
+    /*text-align: center;*/
   }
   .cd-intro{
     padding: 200px 0 20px 0;
   }
+
+  .cd-intro .pull-right{
+    margin: 0 auto;
+  }
   .type{
     color: aquamarine;
-    width: 400px;
+    width: 250px;
   }
 
   .navbar-brand{

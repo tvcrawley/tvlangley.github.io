@@ -60,20 +60,24 @@ h3{
   h3{
     left: auto;
     right: auto;
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
+    padding-top: 75px;
   }
   .port img{
     margin: 0 auto 10px auto;
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
   }
-.port{
-  width: auto;
-}
+  .port{
+    width: auto;
+  }
+  .port .mur{
+    margin: 0;
+  }
   .description{
     margin: 0 auto 10px auto;
-    width: 300px;
+    width: 250px;
   }
 }
 
