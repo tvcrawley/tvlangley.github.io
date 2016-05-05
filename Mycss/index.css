@@ -85,7 +85,7 @@ h2{
   padding-top: 10px;
   border-bottom: solid thin white;
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
   /*.pull-right{
   background-color: red;
   float: left!important;
@@ -99,7 +99,7 @@ h2{
   }
 }
 
-@media (max-width: 500px){
+@media (min-width: 320px){
   html, body, .navbar, .lll{
     min-width: 320px;
   }
@@ -122,6 +122,10 @@ main{
 
   .navbar a{
     padding: 5px 10px;
+  }
+
+  .navbar p{
+    display: inline;
   }
 
   .pull-right, .pull-left{
