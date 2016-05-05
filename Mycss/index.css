@@ -99,14 +99,18 @@ h2{
   }
 }
 
-@media (min-width: 320px){
+@media (max-width: 500px){
   html, body, .navbar, .lll{
     min-width: 320px;
   }
   header{
     height: 60px;
   }
-
+main{
+  /*background-image: url(  http://i.imgur.com/yc3H4rs.jpg);*/
+  background-image: url(http://i.imgur.com/pmQDtYr.jpg);
+  background-size: contain;
+}
   h1{
     font-size: 24px;
     margin: 5px 0;
@@ -122,5 +126,12 @@ h2{
 
   .pull-right, .pull-left{
     float: none!important;
+  }
+.cd-intro{
+  padding: 200px 0 20px 0;
+}
+  .type{
+    color: aquamarine;
+    width: 400px;
   }
 }
