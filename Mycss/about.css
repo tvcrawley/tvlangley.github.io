@@ -27,3 +27,13 @@
 .waiting{
   width: auto!important;
 }
+
+@media (max-width: 768px){
+  h2{
+    margin: 0 25px;
+  }
+
+  .about{
+    margin: 0 0 20px 0;
+  }
+}
