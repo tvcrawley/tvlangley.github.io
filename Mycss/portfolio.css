@@ -40,7 +40,7 @@ h3{
   background-color: aquamarine;
 }
 .port h3:hover {
-  opacity: .7;
+  opacity: .8;
   cursor: pointer;
 }
 .rowed{
