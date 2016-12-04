@@ -32,6 +32,10 @@ section {
     padding: 30px 0;
 }
 
+.cd-intro {
+    height: 500px;
+}
+
 #about {
     background-color: rgba(128, 0, 128, .5);
 }
@@ -135,6 +139,8 @@ h2 {
     }
     .cd-intro {
         padding: 200px 0 20px 0;
+        height: 315px;
+        margin-left: 100px;
     }
     .cd-intro .pull-right {
         margin: 0 auto;
@@ -175,7 +181,8 @@ h2 {
         float: none!important;
     }
     .cd-intro {
-        padding: 100px 0 325px 400px;
+        padding: 25px 0 325px 350px;
+        height: 300px;
     }
     /*.navbar-brand{
     margin: 0 40px;
