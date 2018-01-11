@@ -59,7 +59,6 @@ footer {
 .navbar {
     margin-top: 15px;
 }
-
 .navbar a {
     padding: 35px 15px 26px 15px;
 }
@@ -86,16 +85,47 @@ nav a:link, nav a:visited {
     color: white;
 }
 
-nav a:hover {
+header nav a:hover {
     text-decoration: none;
     background-color: rgba(255, 255, 255, .85);
     color: #6cddb7;
 }
-
 footer div {
-    display: flex;
-    flex-direction: row;
-    /*justify-content: center;*/
+  display: flex;
+  flex-direction: row;
+}
+footer .navbar-brand a{
+  padding: 0;
+}
+footer img {
+  margin-top: 10px;
+}
+footer a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all .2s ease-in;
+  width: 90px;
+  height: 90px;
+  /* padding-top: 30px; */
+  margin: auto;
+  border: white solid;
+  border-radius: 30px;
+  text-align: center;
+  background-color: white;
+}
+footer h4{
+  padding-top: 20px;
+}
+footer a:hover {
+  opacity: .8;
+  cursor: pointer;
+  color: aquamarine;
+}
+footer .navbar-brand {
+  position: relative;
+  padding-top: 0;
 }
 
 h2 {
@@ -132,6 +162,7 @@ h2 {
     .navbar p {
         display: inline;
     }
+
     .pull-right, .pull-left {
         float: none!important;
         padding: 0;
@@ -158,6 +189,10 @@ h2 {
     }
     .navbar-brand a {
         padding: 25px;
+    }
+    footer h4 {
+      width: 80px;
+      height: 80px;
     }
 }
 
