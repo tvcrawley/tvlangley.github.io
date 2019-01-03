@@ -2,54 +2,42 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <!-- Materialize: Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Tonia Langley</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Materialize: Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <title>Tonia Langley</title>
 </head>
 
-<body>
-    <header class="navbar-fixed-top lll">
-        <!-- <h2>Under Construction</h2> -->
-        <div class="container-fluid">
+<body class="container">
+  <header class="row">
+    <nav class="nav-extended col s12 m12 l12">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Tonia Langley</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li><a href="resume.html" target="_blank">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-            <div class="row">
-                <div class="col-xs-5 pull-left">
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#about">About</a></li>
+      <li><a href="resume.html" target="_blank">Resume</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
 
-                    <h1>Toni Langley</h1>
-                </div>
-
-                <!-- <div class="col-xs-2 construction">
-        <h4>Under Construction</h4>
-      </div> -->
-
-
-                <!-- nav bar -->
-                <div class="col-xs-6 pull-right">
-
-                    <nav class="navbar">
-
-                        <div class="container-fluid">
-                            <p class="navbar-text"><a href="#home" class="scroll">Home</a></p>
-                            <p class="navbar-text"><a href="#about" class="scroll">About</a></p>
-                            <p class="navbar-text"><a href="resume.html" target="_blank">Resume</a></p>
-                            <p class="navbar-text"><a href="#portfolio" class="scroll">Portfolio</a></p>
-                            <p class="navbar-text"><a href="#contact" class="scroll">Contact</a></p>
-                        </div>
-
-                    </nav>
-                </div>
-
-            </div>
-
-        </div>
-
-    </header>
-
-    <main id="home">
-        <!-- home section -->
-        <!-- <section id="home">
+  <main id="home">
+    <!-- home section -->
+    <!-- <section id="home">
   <div class="container-fluid">
   <div class="row">
   <div class="col-xs-5">
@@ -60,61 +48,61 @@
 </div>
 </section> -->
 
-        <section>
+    <section>
 
-            <div class="container-fluid">
-                <div class="row">
+      <div class="container-fluid">
+        <div class="row">
 
-                    <div class="col-xs-8 pull-right cd-intro">
-                        <h1 class="cd-headline letters type">
-          <p>I am a(n)</p>
-          <p class="cd-words-wrapper waiting">
-            <b class="is-visible">front end developer</b>
-            <b>bookworm</b>
-            <b>anime enthusiast</b>
-          </p>
-        </h1>
-                    </div>
-                </div>
+          <div class="col-xs-8 pull-right cd-intro">
+            <h1 class="cd-headline letters type">
+              <p>I am a(n)</p>
+              <p class="cd-words-wrapper waiting">
+                <b class="is-visible">front end developer</b>
+                <b>bookworm</b>
+                <b>anime enthusiast</b>
+              </p>
+            </h1>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+      <h2>About</h2>
+      <div class="container-fluid">
+        <div class="row mur">
+
+          <div class="col-xs-12">
+            <!-- <div class="pic"> -->
+            <!-- <img  src="http://i.imgur.com/pmQDtYr.jpg" alt="Toni Langley" class="img-circle img-responsive center-block pic"/> -->
+            <!-- </div> -->
+            <h1 class="about">
+              I am an intellectual explorer and life long learner building creative solutions for an all-encompassing, ever evolving user experience within web development.
+            </h1>
+
+            <div class="cd-headline slide about">
+              <!-- <p>I am a(n)</p> -->
+              <div class="cd-words-wrapper waiting">
+                <b class="is-visible">
+                  Live the Life You Love
+                </b>
+                <b>Let's Do This!</b>
+                <b>Live Freely, Learn Daily</b>
+                <!-- <b>another quote</b> -->
+              </div>
             </div>
 
-        </section>
 
-        <!-- about section -->
-        <section id="about">
-            <h2>About</h2>
-            <div class="container-fluid">
-                <div class="row mur">
+          </div>
+          <!-- </div> -->
 
-                    <div class="col-xs-12">
-                        <!-- <div class="pic"> -->
-                        <!-- <img  src="http://i.imgur.com/pmQDtYr.jpg" alt="Toni Langley" class="img-circle img-responsive center-block pic"/> -->
-                        <!-- </div> -->
-                        <h1 class="about">
-          I am an intellectual explorer and life long learner building creative solutions for an all-encompassing, ever evolving user experience within web development.
-        </h1>
-
-                        <div class="cd-headline slide about">
-                            <!-- <p>I am a(n)</p> -->
-                            <div class="cd-words-wrapper waiting">
-                                <b class="is-visible">
-              Live the Life You Love
-            </b>
-                                <b>Let's Do This!</b>
-                                <b>Live Freely, Learn Daily</b>
-                                <!-- <b>another quote</b> -->
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <!-- </div> -->
-
-                    <!-- <div class="row"> -->
-                    <!-- <div class="col-xs-8 pull-right"> -->
-                    <!-- <h4 class="about"> -->
-                    <!-- There are many avenues in life that one can take. Programming allows the creation of crazy and great improvements to everyday life.  -->
-                    <!-- <section class="cd-intro">
+          <!-- <div class="row"> -->
+          <!-- <div class="col-xs-8 pull-right"> -->
+          <!-- <h4 class="about"> -->
+          <!-- There are many avenues in life that one can take. Programming allows the creation of crazy and great improvements to everyday life.  -->
+          <!-- <section class="cd-intro">
 
       <p class="about cd-headline letters type">
       <p>I am a(n)</p>
@@ -129,107 +117,114 @@
 
 
 
-                    <!-- </h4> -->
-                    <!-- </div> -->
-                </div>
-            </div>
+          <!-- </h4> -->
+          <!-- </div> -->
+        </div>
+      </div>
 
-        </section>
+    </section>
 
-        <!-- resume link -->
-        <!-- <section id="resume">
+    <!-- resume link -->
+    <!-- <section id="resume">
 
 </section> -->
 
-        <!-- portfolio section -->
-        <section id="portfolio">
-          <h2>Portfolio</h2>
-            <div class="container-fluid port">
-              <div class="row mur rowed">
-                <div class="col-xs-6 mur flexed">
-                  <h3>Park Finder
-                    <p class="small">(Click here to learn more)</p>
-                  </h3>
-                  <img src="https://i.imgur.com/CmBqDGS.png" alt="Park Finder screenshot" />
-                  <div class="description">
-                    <p>An application designed to relate books to their adaptations </p>
-                    <p>[React.js, Firebase]</p>
-                    <a href="https://tvlangley.github.io/parkFinder/" target="_blank">Deployed Application</a>
-                    <a href="https://github.com/tvlangley/parkFinder" target="_blank">View code on Github</a>
-                  </div>
-                </div>
-                <div class="col-xs-6 mur flexed">
-                  <h3>Customer Log
-                    <p class="small">(Click here to learn more)</p>
-                  </h3>
-                  <img src="https://i.imgur.com/YLJwFmc.png" alt="Customer Log screenshot" />
-                  <div class="description">
-                    <p>An application which allows the user to Create, List, Update and Delete customers</p>
-                    <p>[Angular.js, Firebase]</p>
-                    <a href="https://tvlangley.github.io/customer-log/" target="_blank">Deployed Application</a>
-                    <a href="https://github.com/tvlangley/customer-log">View code on Github</a>
-                  </div>
-                </div>
-              </div>
-              <div class="row mur rowed">
-                <div class="col-xs-6 mur flexed">
-                  <h3>Anination
-                    <p class="small">(Click here to learn more)</p>
-                  </h3>
-                  <img src="https://i.imgur.com/rOikY6O.png" alt="Anination screenshot" />
-                  <div class="description">
-                    <p>An application which displays information about anime</p>
-                    <p>[MongoDB, Express.js, Angular.js, Node.js]</p>
-                    <a href="https://anination.herokuapp.com/#/" target="_blank">Deployed Application</a>
-                    <a href="https://github.com/tvlangley/anination" target="_blank">View code on Github</a>
-                  </div>
-                </div>
-                <div class="col-xs-6 mur flexed">
-                  <h3>Harry Potter Trivia Quiz
-                    <p class="small">(Click here to learn more)</p>
-                  </h3>
-                  <img src="http://i.imgur.com/pBLezyS.png" alt="Harry Potter Trivia Quiz screenshot" />
-                  <div class="description">
-                    <p>Trivia game with a Harry Potter theme</p>
-                    <p>[JavaScript, jQuery, CSS]</p>
-                    <a href="http://tvlangley.github.io/harry-potter-trivia/ " target="_blank">Deployed Application</a>
-                    <a href="https://github.com/tvlangley/harry-potter-trivia" target="_blank">View code on Github</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- contact section -->
-    <footer class="footer" id="contact">
-        <nav>
-          <h2>Contact</h2>
-          <div class="container">
-            <!-- github contact -->
-            <div class="navbar-brand">
-              <a href="https://github.com/tvlangley" target="_blank">
-                <h4>GitHub</h4>
-              </a>
-              <img src="http://i.imgur.com/sfYYsCc.png" alt="Toni Langley Github" height="60" width="60" />
-            </div>
-            <!-- linkedin contact -->
-            <div class="navbar-brand">
-              <a href="https://www.linkedin.com/in/tlangley" target="_blank">
-                <h4>LinkedIn</h4>
-              </a>
-              <img src="http://i.imgur.com/cCfmpGg.png" alt="Toni Langley LinkedIn" height="55" width="55" />
-            </div>
-            <!-- email contact -->
-            <div class="navbar-brand">
-              <a href="mailto:langley_214@yahoo.com">
-                <h4>Email</h4>
-              </a>
-              <img src="http://i.imgur.com/RZLZeJS.png" alt="Toni Langley email" height="60" width="60" />
+    <!-- portfolio section -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="container-fluid port">
+        <div class="row mur rowed">
+          <div class="col-xs-6 mur flexed">
+            <h3>Park Finder
+              <p class="small">(Click here to learn more)</p>
+            </h3>
+            <img src="https://i.imgur.com/CmBqDGS.png" alt="Park Finder screenshot" />
+            <div class="description">
+              <p>An application designed to relate books to their adaptations </p>
+              <p>[React.js, Firebase]</p>
+              <a href="https://tvlangley.github.io/parkFinder/" target="_blank">Deployed Application</a>
+              <a href="https://github.com/tvlangley/parkFinder" target="_blank">View code on Github</a>
             </div>
           </div>
-        </nav>
-      </footer>
+          <div class="col-xs-6 mur flexed">
+            <h3>Customer Log
+              <p class="small">(Click here to learn more)</p>
+            </h3>
+            <img src="https://i.imgur.com/YLJwFmc.png" alt="Customer Log screenshot" />
+            <div class="description">
+              <p>An application which allows the user to Create, List, Update and Delete customers</p>
+              <p>[Angular.js, Firebase]</p>
+              <a href="https://tvlangley.github.io/customer-log/" target="_blank">Deployed Application</a>
+              <a href="https://github.com/tvlangley/customer-log">View code on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mur rowed">
+          <div class="col-xs-6 mur flexed">
+            <h3>Anination
+              <p class="small">(Click here to learn more)</p>
+            </h3>
+            <img src="https://i.imgur.com/rOikY6O.png" alt="Anination screenshot" />
+            <div class="description">
+              <p>An application which displays information about anime</p>
+              <p>[MongoDB, Express.js, Angular.js, Node.js]</p>
+              <a href="https://anination.herokuapp.com/#/" target="_blank">Deployed Application</a>
+              <a href="https://github.com/tvlangley/anination" target="_blank">View code on Github</a>
+            </div>
+          </div>
+          <div class="col-xs-6 mur flexed">
+            <h3>Harry Potter Trivia Quiz
+              <p class="small">(Click here to learn more)</p>
+            </h3>
+            <img src="http://i.imgur.com/pBLezyS.png" alt="Harry Potter Trivia Quiz screenshot" />
+            <div class="description">
+              <p>Trivia game with a Harry Potter theme</p>
+              <p>[JavaScript, jQuery, CSS]</p>
+              <a href="http://tvlangley.github.io/harry-potter-trivia/ " target="_blank">Deployed Application</a>
+              <a href="https://github.com/tvlangley/harry-potter-trivia" target="_blank">View code on Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- contact section -->
+  <footer class="footer" id="contact">
+    <nav>
+      <h2>Contact</h2>
+      <div class="container">
+        <!-- github contact -->
+        <div class="navbar-brand">
+          <a href="https://github.com/tvlangley" target="_blank">
+            <h4>GitHub</h4>
+          </a>
+          <img src="http://i.imgur.com/sfYYsCc.png" alt="Toni Langley Github" height="60" width="60" />
+        </div>
+        <!-- linkedin contact -->
+        <div class="navbar-brand">
+          <a href="https://www.linkedin.com/in/tlangley" target="_blank">
+            <h4>LinkedIn</h4>
+          </a>
+          <img src="http://i.imgur.com/cCfmpGg.png" alt="Toni Langley LinkedIn" height="55" width="55" />
+        </div>
+        <!-- email contact -->
+        <div class="navbar-brand">
+          <a href="mailto:langley_214@yahoo.com">
+            <h4>Email</h4>
+          </a>
+          <img src="http://i.imgur.com/RZLZeJS.png" alt="Toni Langley email" height="60" width="60" />
+        </div>
+      </div>
+    </nav>
+  </footer>
+  <!-- jQuery: Compiled and minified JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Materialize: Compiled and minified JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="js/script.js"></script>
+
 </body>
 
 <!-- not sure what this is for -->
