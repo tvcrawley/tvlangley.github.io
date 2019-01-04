@@ -9,3 +9,7 @@
 #contact {
   background-color: aquamarine;
 }
+
+p .material-icons {
+  font-size: 13px;
+}
