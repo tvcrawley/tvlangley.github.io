@@ -1,13 +1,68 @@
 body, .page-footer {
-  background-color: #e6e6fa;
+  background-color: #F0EFF4;
+  color: #3D2645;
 }
 
 header, nav, .page-footer .footer-copyright {
-  background-color: #008F8C;
+  background-color: #3D2645;
+  color: #F0EFF4;
 }
 
-#portfolio div.row .col {
-  background-color: #a9f6f2;
+#portfolio div.row {
+  justify-content: center;
+  display: flex;
+}
+
+#portfolio .col.s3.m3.l3 {
+  border-radius: 10px;
+  height: 300px;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.description {
+  background-color: #832161;
+  border: #832161 solid 3px;
+  border-radius: 10px;
+  color: #F0EFF4;
+  display: none;
+  height: 297px;
+  text-align: center;
+}
+
+.description a {
+  color: #72c5ed;
+  text-decoration: none;
+}
+
+#portfolio div.row:nth-of-type(1) .col:nth-of-type(1) {
+  background-image: url('http://i.imgur.com/pBLezyS.png');
+  background-size: cover;
+}
+
+#portfolio div.row:nth-of-type(1) .col:nth-of-type(2) {
+  background-image: url('https://i.imgur.com/CmBqDGS.png');
+  background-size: cover;
+}
+
+#portfolio div.row:nth-of-type(1) .col:nth-of-type(3) {
+  background-image: url('https://i.imgur.com/YLJwFmc.png');
+  background-size: cover;
+}
+
+#portfolio div.row:nth-of-type(2) .col:nth-of-type(1) {
+  background-image: url('http://i.imgur.com/pBLezyS.png');
+  background-size: cover;
+}
+
+#portfolio div.row:nth-of-type(2) .col:nth-of-type(2) {
+  background-image: url('http://i.imgur.com/pBLezyS.png');
+  background-size: cover;
+}
+
+#portfolio div.row:nth-of-type(2) .col:nth-of-type(3) {
+  background-image: url('https://i.imgur.com/rOikY6O.png');
+  background-size: cover;
 }
 
 p .material-icons {
