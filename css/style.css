@@ -1,13 +1,13 @@
-#about {
-  background-color: magenta;
+body, .page-footer {
+  background-color: #e6e6fa;
 }
 
-#portfolio {
-  background-color: lavender;
+header, nav, .page-footer .footer-copyright {
+  background-color: #008F8C;
 }
 
-#contact {
-  background-color: aquamarine;
+#portfolio div.row .col {
+  background-color: #a9f6f2;
 }
 
 p .material-icons {
