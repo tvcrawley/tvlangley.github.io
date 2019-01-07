@@ -1,9 +1,9 @@
-body, .page-footer {
+body {
   background-color: #F0EFF4;
   color: #3D2645;
 }
 
-header, nav, .page-footer .footer-copyright {
+header, nav, .page-footer {
   background-color: #3D2645;
   color: #F0EFF4;
 }
@@ -31,7 +31,7 @@ header, nav, .page-footer .footer-copyright {
 }
 
 .description a {
-  color: #72c5ed;
+  color: #72C5ED;
   text-decoration: none;
 }
 
@@ -63,6 +63,15 @@ header, nav, .page-footer .footer-copyright {
 #portfolio div.row:nth-of-type(2) .col:nth-of-type(3) {
   background-image: url('https://i.imgur.com/rOikY6O.png');
   background-size: cover;
+}
+
+.page-footer {
+  text-align: center;
+}
+
+.page-footer ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 p .material-icons {
