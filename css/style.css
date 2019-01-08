@@ -8,6 +8,35 @@ header, nav, .page-footer {
   color: #F0EFF4;
 }
 
+#about .col.s12.m12.l12 {
+  padding: 0 15%;
+  text-align: center;
+}
+
+#about img {
+  border: #F0EFF4 solid 2px;
+  border-radius: 50%;
+  height: 300px;
+}
+
+#about div.row:nth-last-of-type(1) {
+  background-color: #832161;
+  color: #F0EFF4;
+  padding: 2% 0 3%;
+}
+
+#about .col.s12.m12.l12 p a{
+  color: #F0EFF4;
+  border: thin solid #F0EFF4;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+#about .col.s12.m12.l12 p a:hover{
+  background-color: #F0EFF4;
+  color: #832161;
+}
+
 #portfolio div.row {
   justify-content: center;
   display: flex;
