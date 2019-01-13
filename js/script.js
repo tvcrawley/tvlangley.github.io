@@ -11,7 +11,16 @@ const toggleDescription = function (event) {
   }
 }
 
+const slowScroll = function () {
+  const icon = $(this).attr('href')
+  $('html, body').animate({
+    scrollTop: $(icon).offset().top
+  }, 1300)
+}
+
 $(document).ready(function () {
   $('.sidenav').sidenav()
   $('#portfolio .col').hover(toggleDescription)
+  $('#home a').on('click', slowScroll)
+  $('header li a').on('click', slowScroll)
 })

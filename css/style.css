@@ -17,30 +17,52 @@ h4 {
   margin: 0;
 }
 
-#about .col.s12.m12.l12 {
+#home .col.s12.m12.l12, #about .col.s12.m12.l12 {
   padding: 0 15%;
+  height: inherit;
 }
 
-#about img {
+#home {
+  height: 44rem;
+}
+
+#home img {
   border: #F0EFF4 solid 2px;
   border-radius: 50%;
   height: 300px;
+  margin: 2rem 0;
 }
 
-#about div.row:nth-last-of-type(1) {
+#home .material-icons {
+  margin: 2rem;
+  font-size: 2rem;
+  color: #3D2645;
+
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%   {margin-top: 2rem;}
+    50%  {margin-top: 3rem;}
+    100% {margin-top: 2rem;}
+}
+
+#about {
   background-color: #832161;
   color: #F0EFF4;
   padding: 2% 0 3%;
 }
 
-#about .col.s12.m12.l12 p a{
+#about p a{
   color: #F0EFF4;
   border: thin solid #F0EFF4;
   border-radius: 10px;
   padding: .25rem .5rem;
 }
 
-#about .col.s12.m12.l12 p a:hover{
+#about p a:hover{
   background-color: #F0EFF4;
   color: #832161;
 }
