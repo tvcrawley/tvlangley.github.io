@@ -1,4 +1,3 @@
-
 const toggleDescription = function (event) {
   // toogle words
    $(this).children().toggle()
@@ -18,7 +17,7 @@ const slowScroll = function () {
   }, 1300)
 }
 
-$(document).ready(function () {
+$(() => {
   $('.sidenav').sidenav()
   $('#work .col').hover(toggleDescription)
   $('#home a').on('click', slowScroll)
