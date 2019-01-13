@@ -8,6 +8,11 @@ header, nav, .page-footer {
   color: #F0EFF4;
 }
 
+nav ul a:hover {
+  background-color: #F0EFF4;
+  color: #3D2645;
+}
+
 section {
   text-align: center;
   margin: 2rem 0;
@@ -15,6 +20,10 @@ section {
 
 h4 {
   margin: 0;
+}
+
+p .material-icons {
+  font-size: 13px;
 }
 
 #home .col.s12.m12.l12, #about .col.s12.m12.l12 {
@@ -135,15 +144,30 @@ h4 {
   background-size: cover;
 }
 
-.page-footer {
+footer {
   text-align: center;
 }
 
-.page-footer ul {
+footer ul {
   display: flex;
   justify-content: space-between;
 }
 
-p .material-icons {
-  font-size: 13px;
+footer li {
+  border: solid thin #F0EFF4;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+footer .fab, footer .far {
+  font-size: 2rem;
+  color: #F0EFF4;
+}
+
+footer li:hover {
+  background-color: #F0EFF4;
+}
+
+footer li:hover .fab, footer li:hover .far {
+  color: #3D2645;
 }
