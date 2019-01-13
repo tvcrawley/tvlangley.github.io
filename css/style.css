@@ -13,6 +13,20 @@ nav ul a:hover {
   color: #3D2645;
 }
 
+.sidenav {
+  background-color: #F0EFF4;
+}
+
+.sidenav li > a {
+  color: #3D2645;
+  text-align: center;
+}
+
+.sidenav li > a:hover {
+  background-color: #3D2645;
+  color: #F0EFF4;
+}
+
 section {
   text-align: center;
   margin: 2rem 0;
