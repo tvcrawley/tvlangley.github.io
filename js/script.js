@@ -20,7 +20,7 @@ const slowScroll = function () {
 
 $(document).ready(function () {
   $('.sidenav').sidenav()
-  $('#portfolio .col').hover(toggleDescription)
+  $('#work .col').hover(toggleDescription)
   $('#home a').on('click', slowScroll)
   $('header li a').on('click', slowScroll)
 })
